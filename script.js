@@ -90,7 +90,7 @@ function setupCanvas() {
 // 점들을 저장할 배열
 let points = [];
 const POINT_LIFETIME = 2000; // 점이 사라지기까지의 시간 (밀리초)
-const POINT_SIZE = 4; // 점 크기
+const POINT_SIZE = 10; // 점 크기
 
 // 시작 버튼 클릭 이벤트
 document.getElementById('startButton').addEventListener('click', () => {
